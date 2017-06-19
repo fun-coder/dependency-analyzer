@@ -4,7 +4,7 @@ Analyze file dependencies and imports
 
 Watch the files
 
-```
+```javascript
 import { buildDM } from 'dependency-analyzer';
 
 buildDM(appDir).then(dm => {
