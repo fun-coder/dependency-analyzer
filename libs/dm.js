@@ -49,6 +49,8 @@ export default class DM {
     this.watcher.on('unlink', path => this.delete(path));
   }
 
+  // public method -->
+
   on(eventName, listener) {
     if (!this.listeners[eventName]) this.listeners[eventName] = [];
     this.listeners[eventName].push(listener);
@@ -57,6 +59,8 @@ export default class DM {
   find(path) {
     return this.store[path];
   }
+
+  // <-- public method
 
   async change(path) {
     await this.notify('change', path);
