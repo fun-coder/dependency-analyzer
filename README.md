@@ -1,4 +1,4 @@
-## Dependency Analyzer
+## Dependency Analyzer   [![Build Status](https://travis-ci.org/fun-coder/dependency-analyzer.svg?branch=master)](https://travis-ci.org/fun-coder/dependency-analyzer)
 
 Analyze file dependencies and imports
 
